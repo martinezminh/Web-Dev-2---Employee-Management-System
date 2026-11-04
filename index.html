@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Employee Management System</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><div class="logo" id="logo"></div><div>Employee<br>Management System</div></div>
+    <div class="ws">WORKSPACE</div>
+    <nav class="nav">
+      <a href="#dashboard" id="nav-dashboard"></a>
+      <a href="#employees" id="nav-employees"></a>
+    </nav>
+    <div class="me"><div class="av admin">AD</div><div><b>Admin</b><small>Administrator</small></div></div>
+  </aside>
+  <div class="main">
+    <header class="top"><div class="av admin">AD</div><span>Admin</span></header>
+    <main class="page" id="view"></main>
+  </div>
+</div>
+<div class="ov" id="ov"><div class="modal" id="modal" role="dialog" aria-modal="true"></div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
